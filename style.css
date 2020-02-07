@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.top_box {
+    width: 80%;
+    border-radius: 15%;
+    margin: 1% auto;
+    background-color: rgb(106, 255, 190);
+}
+
+h1 {
+    color: rgb(58, 51, 51);
+    text-align: center;
+}
+
+.text_line {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.para {
+    font-size: 1.2rem;
+    color: rgb(53, 25, 39);
+}
+
+.number_input {
+    width: 16rem;
+    height: 2rem;
+    border-radius: 3%;
+}
+
+.generate {
+    background-color: green;
+    height: 2rem;
+}
+
+.end {
+    background-color: red;
+    height: 2rem;
+}
+
+.first_line {
+    text-align: center;
+    padding: 1rem;
+}
+
+.flex_container {
+    width: 80%;
+    margin: auto;
+}
+
+.flex_container>div>button {
+    background-color: rgb(243, 199, 199);
+    width: 5rem;
+    height: 3rem;
+    padding: auto;
+    margin: 15px;
+}
+
+.colorBox {
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+}
